@@ -77,7 +77,7 @@ ai-automation-agent/
 
 ## ⚙️ Installation
 
-git clone https://github.com/yourusername/ai-automation-agent.git
+git clone https://github.com/MANCHALAVENKATESH/ai-automation-agent.git
 cd ai-automation-agent
 
 python -m venv venv
