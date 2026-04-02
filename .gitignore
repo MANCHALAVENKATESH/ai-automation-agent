@@ -1,0 +1,152 @@
+# ============================================
+# SECRETS - NEVER COMMIT THESE!
+# ============================================
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# ============================================
+# PYTHON
+# ============================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyz
+*.pyzw
+
+# ============================================
+# VIRTUAL ENVIRONMENT
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+
+# ============================================
+# DATA & DATABASE FILES
+# ============================================
+data/
+*.json
+*.jsonl
+
+# But KEEP these json files
+!app/rag/data/selectors.json
+
+# ============================================
+# VECTOR DATABASE
+# ============================================
+data/chroma_db/
+data/test_chroma/
+*.sqlite3
+*.bin
+
+# ============================================
+# TRAINING DATA
+# ============================================
+data/training/
+*.jsonl
+
+# ============================================
+# SCREENSHOTS & IMAGES
+# ============================================
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# ============================================
+# LOGS
+# ============================================
+*.log
+logs/
+agent.log
+
+# ============================================
+# OLLAMA MODELS
+# ============================================
+models/
+*.gguf
+*.bin
+Modelfile
+
+# ============================================
+# IDE & EDITOR FILES
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS FILES
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# ============================================
+# TESTING
+# ============================================
+test_temp.json
+test_screenshot.png
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ============================================
+# BUILD & DISTRIBUTION
+# ============================================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# HUGGING FACE CACHE
+# ============================================
+.cache/
+*.cache
